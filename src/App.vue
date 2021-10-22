@@ -1,27 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <h2>07-reactive的使用</h2>
+  <h3>m1:{{m1}}</h3>
+  <h3>m1:{{m1}}</h3>
+  <h3>m1:{{m1}}</h3>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+
+// 引入当前页下方的defineComponnent
+import { defineComponent} from 'vue';
 
 export default defineComponent({
   name: 'App',
-  components: {
-    HelloWorld
+
+  setup(){
+    return{
+
+    }
   }
+ 
 });
 </script>
 
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
